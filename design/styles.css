@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-align: center;
+  width: 385px;
+  margin-top: 1em;
+}
+
+.right{
+  position: relative;
+  float: right;
+  top: 1.5em;
+  margin-right: 1em;
+}
+
+.left{
+  position: relative;
+  padding-top: 1.5em;
+  float: left;
+  margin-left: 1em;
+}
+
+.btn{
+  width: 10em;
+  height: 2em;
+  border-radius: 0.5em;
+  color: aliceblue;
+  background-color: gray;
+  border: none;
+}
+
+.submit{
+  margin-bottom: 0.5em;
+}
+
+.again{
+  float: left;
+  margin-right: 2em;
+}
+
+.give-up{
+  float: right;
+}
+
+.heading{
+  font-size: 1.5em;
+}
+
+.number{
+  background-color: red;
+  width: 7rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+
+img{
+  width: 100px;
+}
+
+.message{
+  font-style: italic;
+}
+
+.guess{
+  border-radius: 0.5em;
+  border-style: dotted;
+  border-width: 2px;
+  width: 70px;
+  display: block;
+  text-align: center;
+}
+
+.score-paragraph{
+  font-style: italic;
+  font-size: 0.8em;
+  margin-left:1em;
+}
